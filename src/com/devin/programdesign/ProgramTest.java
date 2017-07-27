@@ -3,6 +3,7 @@ package com.devin.programdesign;
 import java.util.Random;
 
 public class ProgramTest {
+	
 	public static void main(String[] args) {
 	//一維數組
 	/*	int[] m = new int[10];
@@ -12,7 +13,7 @@ public class ProgramTest {
 		}
 		System.out.println(m[9]);*/
 		
-	//進制轉換
-		
 	}
+
+	
 }
