@@ -5,12 +5,14 @@ import java.util.Stack;
 public class JinZhiTrans {
 	private static final String CODEING_STRING= "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$.`";
 	
+	
 	/**
 	 * baseConvert:现将非10进制需要的转换成10进制，再又10进制转换成任一进制
 	 * @param s ：输入值，以字符串输入
 	 * @param srcBase ：输入字符进制
 	 * @param destBase ：需要转换的目标进制
 	 * @return
+	 * Comment: 进制转换还可以用Integer.toHexString(int )的方法 **
 	 */
 	public String baseConvert(String s, int srcBase, int destBase)
 	{

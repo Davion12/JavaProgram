@@ -1,11 +1,11 @@
-package com.devin.programdesign;
+package com.devin.programdesign.zijieliu;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class FileRW {
+public class FileZiJie {
 	public static void main(String[] args) {
 		String path = "E:/java_plan/JulyPlan/Course/JavaProgram/src/com/devin/programdesign/Files/filetest.txt";
 		String writemessage0 = "devin";
